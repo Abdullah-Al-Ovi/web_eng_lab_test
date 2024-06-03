@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Apply Online</title>
+    <style>
+        * {
+            margin: 0;
+        }
+    </style>
 </head>
+
 <body>
-    <header style="height: 13vh;background-color:rgb(25, 78, 78);display: flex;align-items: center;justify-content: center;">
+    <header
+        style="height: 13vh;background-color:rgb(25, 78, 78);display: flex;align-items: center;justify-content: center;">
         <h1 style="color: white;text-align: center;">EDGE: CSEBU Digital Skills Training Program</h1>
     </header>
-    <nav >
+    <nav>
         <div><a href="index.html">Announcement</a></div>
         <div><a href="courses.html">Offered Classes</a></div>
         <div><a href="apply.html">Apply Online</a></div>
     </nav>
+    <h1 style="text-align: center;margin-bottom: 1rem;">Application Form</h1>
+    <section class="apply">
+        <div class="inputField">
+            <label for="">Applicant Name</label>
+            <input type="text" name="" id="">
+        </div>
+        <div class="inputField">
+            <label for="">Phone Number</label>
+            <input type="text" name="" id="">
+        </div>
+        <div class="inputField">
+            <label for="">Email</label>
+            <input type="email" name="" id="">
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <div style="margin-right: 2rem;">
+                <input type="radio">
+                <label for="">Male</label>
+            </div>
+            <div>
+                <input type="radio">
+                <label for="">Female</label>
+            </div>
+        </div>
+        <div>
+            <label for="">Date of Birth</label>
+            <input type="date">
+        </div>
+        <div class="inputField">
+            <label for="">Institute</label>
+            <input type="email" name="" id="">
+        </div>
+        <div>
+            <label for="">Choose Program</label>
+            <select name="" id="">
+                <option value="">Select---</option>
+                <option value="">Computer Fundamentals and Office Application</option>
+                <option value="">Basic Networking</option>
+                <option value="">Basic Web Development</option>
+                <option value="">Basic Programming With Python</option>
+                <option value="">Database Management</option>
+                <option value="">Mobile Application and Development</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Why you want to attend this course:</label>
+            <textarea name="" rows="3" id=""></textarea>
+        </div>
+        <div style="text-align: center;display: flex;justify-content: center;margin-top: 8px;border: none;">
+            <button style="padding: 0.7rem 1rem;background-color: green;color: white;border-radius: 5px;">Submit</button>
+        </div>
+    </section>
+
 </body>
+
 </html>

@@ -22,6 +22,14 @@ nav div:hover{
 nav div:hover a{
     color: black;
 }
+/* a:visited {
+    background-color: azure;
+    color: black;
+} */
+/* a:active {
+    background-color: azure;
+    color: black;
+} */
 .announcement{
     width: 80%;
     margin-left: auto;
@@ -47,7 +55,8 @@ caption {
 }
 
 thead {
-    background-color: #f2f2f2;
+    background-color: rgb(25,78,78);
+    color: white;
 }
 
 th, td {
@@ -67,5 +76,27 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+.apply{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px black solid; */
+}
+.apply>div{
+    display: flex;
+    margin-bottom: 8px;
+}
+.apply>div>label{
+    width: 45%;
+    font-size: large;
+    font-weight: 500;
+
+}
+.apply >div>input,.apply>div>select,.apply>div>textarea{
+    width: 50%;
+    border: 2px black solid;
+    padding: 7px;
+}
+
 
 
