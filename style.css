@@ -1,0 +1,22 @@
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    height: 7vh;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav div:hover{
+    background-color: azure;
+}
+nav div:hover a{
+    color: black;
+}
