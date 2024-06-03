@@ -20,3 +20,15 @@ nav div:hover{
 nav div:hover a{
     color: black;
 }
+section{
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 3rem;
+    background-image: linear-gradient(to right bottom, #507a7a, #023838, #356464, #285959, #194e4e);
+    color: white;
+}
+section>ul,p,h1{
+    margin-bottom: 1rem;
+}
