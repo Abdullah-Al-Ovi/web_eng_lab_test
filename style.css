@@ -3,11 +3,13 @@ nav{
     grid-template-columns: repeat(3,1fr);
     background-color: black;
     height: 7vh;
+    margin-bottom: 1.5rem;
 }
 nav div{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 nav a{
     color: white;
@@ -20,9 +22,8 @@ nav div:hover{
 nav div:hover a{
     color: black;
 }
-section{
+.announcement{
     width: 80%;
-    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
     padding: 3rem 3rem;
@@ -32,3 +33,39 @@ section{
 section>ul,p,h1{
     margin-bottom: 1rem;
 }
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 12px 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+table td{
+    font-weight: 100;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
